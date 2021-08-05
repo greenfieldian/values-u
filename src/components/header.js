@@ -1,42 +1,35 @@
 import * as React from "react"
-import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+const Header = () => (
+
+  <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
+  <Container>
+  <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="me-auto">
+      <NavDropdown title="Media" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Bite Size</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Full Course</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Elders Series</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">Blog</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.4">Podcast</NavDropdown.Item>
+      </NavDropdown>
+      <NavDropdown title="About Us" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Our Mission</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Featured Contributors</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Press</NavDropdown.Item>
+      </NavDropdown>
+      <Nav.Link href="/contact">Contact Us</Nav.Link>
+      <NavDropdown title="Get Involved" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Events</NavDropdown.Item>
+        <NavDropdown.Item href="/donate">Become a Member</NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
