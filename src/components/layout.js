@@ -13,6 +13,8 @@ import { Container } from "react-bootstrap"
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
+import Popup from "./popup"
+import PopupComp from "./popup"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,9 +30,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <Container>
+      <div>
         <main>{children}</main>
-      </Container>
+      </div>
         <Footer />
     </>
   )

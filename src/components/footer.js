@@ -18,11 +18,11 @@ const Footer = () => (
                             <h4 className="footer_heading">Join thousands of supporters by signing up for our newsletter.</h4>
                             <div className="sub_contain">
                                 <div className="input_contain">
-                                    <label>EMAIL ADDRESS</label>
+                                    <label>EMAIL*</label>
                                     <input className="footer_input"></input>
                                 </div>
                                 <div>
-                                    <Button className="footer_btn">Subscribe</Button>
+                                    <Button className="footer_btn" variant="dark">Subscribe</Button>
                                 </div>
                             </div>
                         </form>
@@ -37,7 +37,7 @@ const Footer = () => (
                             </nav>
                         </div>
                     </div>
-                    <div>
+                    <div className="main-nav-container">
                         <nav>
                             <dl>
                                 <dt>
@@ -66,6 +66,15 @@ const Footer = () => (
                                 <dd>Have any questions, feeling inspired and want to get involved, or simply want to provide some feedback? Contact us through our online submission form- we would love to hear from you.</dd>
                             </dl>
                         </nav>
+                    </div>
+                    <div className="text-center">
+                        <nav>
+                            <ul>
+                                <li className="footer-legal-link"><Link>Privacy Policy</Link></li>
+                                <li className="footer-legal-link"><a>Site Credit</a></li>
+                            </ul>
+                        </nav>
+                        <p className="footer-rights text-black-50">©The World Values Network, All Rights Reserved</p>
                     </div>
                 </div>
             </div>

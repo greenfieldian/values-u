@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
+import Donate from '../components/donate'
 import { Container, Row, Form, Button } from 'react-bootstrap'
 
 const ContactPage = () => (
@@ -44,6 +45,7 @@ const ContactPage = () => (
                 </Form>
             </Row>
         </Container>
+        <Donate />
     </Layout>
 )
 
