@@ -4,6 +4,8 @@ import Hero from '../components/hero'
 import Donate from '../components/donate'
 import { Container, Row, Form, Button } from 'react-bootstrap'
 
+import '../styles/contact.css'
+
 const ContactPage = () => (
     <Layout>
         <Hero />
