@@ -1,0 +1,24 @@
+.article-header {
+    font-weight: 800;
+}
+.article-header a {
+    color: #000 !important;
+    text-decoration: none;
+}
+.article-desc {
+    font-size: 14px;
+    color: inherit;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 12px;
+    max-width: 600px;
+}
+.article-author {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: aktiv-grotesk,sans-serif;
+    line-height: 1.5;
+    margin-top: 8px;
+    padding-left: 0;
+    color: #1b1d239c;
+}

@@ -13,7 +13,7 @@ const Header = () => (
         <NavDropdown.Item href="#action/3.1">Bite Size</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Full Course</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Elders Series</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Blog</NavDropdown.Item>
+        <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.4">Podcast</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="About Us" id="collasible-nav-dropdown">
