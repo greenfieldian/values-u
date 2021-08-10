@@ -31,10 +31,10 @@ const Footer = () => (
                         <div>
                             <nav>
                                 <ul>
-                                    <li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "facebook-f"]} size="2x" /></Link></li>
+                                    {/*<li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "facebook-f"]} size="2x" /></Link></li>
                                     <li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} size="2x" /></Link></li>
                                     <li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "instagram"]} size="2x" /></Link></li>
-                                    <li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "youtube"]} size="2x" /></Link></li>
+<li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "youtube"]} size="2x" /></Link></li>*/}
                                 </ul>
                             </nav>
                         </div>
