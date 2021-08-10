@@ -4,6 +4,8 @@ import { Container, Row } from "react-bootstrap"
 import { FaArrowCircleRight } from 'react-icons/fa';
 import { StaticImage } from 'gatsby-plugin-image'
 
+import '../styles/home-hero.css';
+
 
 
 const HomeHero = () => (
