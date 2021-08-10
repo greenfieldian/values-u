@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import Donate from "../components/donate";
 
 import HomeHero from '../components/HomeHero';
+import BiteSizeWidget from "../components/widgets/bite-size-widget";
 
 
 const IndexPage = () => (
