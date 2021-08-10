@@ -5,6 +5,7 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 import { StaticImage } from 'gatsby-plugin-image'
 
 import '../styles/home-hero.css';
+import Button from "./reusable/button";
 
 
 
@@ -62,7 +63,7 @@ const HomeHero = () => (
                             <p>The Values University (VU) initiative explores the values that shape and create our realities from a personal approach, highlighting the global leaders, change makers and influencers whose adherence to their specific values promote social-cohesion, peace-building and a more unified global community.</p>
                         </div>
                         <div>
-                            <Link to="/videos" className="hero-btn">Browse Media <FaArrowCircleRight className="fa-arrow-right" /></Link>
+                            <Button label="Browse Media"/>
                         </div>
                     </Row>
                 </Container>

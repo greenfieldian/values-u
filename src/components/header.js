@@ -1,11 +1,16 @@
 import * as React from "react"
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap"
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Header = () => (
 
   <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
   <Container>
-  <Navbar.Brand href="/">ValuesU</Navbar.Brand>
+  <Navbar.Brand href="/">
+    <StaticImage 
+    src="../images/values-u logo idea 2.png"
+    />
+  </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">

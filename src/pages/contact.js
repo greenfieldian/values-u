@@ -2,7 +2,8 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Donate from '../components/donate'
-import { Container, Row, Form, Button } from 'react-bootstrap'
+import { Container, Row, Form } from 'react-bootstrap'
+import Button from '../components/reusable/button'
 
 import '../styles/contact.css'
 
@@ -41,8 +42,7 @@ const ContactPage = () => (
                         <Form.Label>Message</Form.Label>
                         <Form.Control type="textarea" />
                     </Form.Group>
-                    <Button variant="primary" type="submit">
-                        Submit
+                    <Button  type="submit" label="Submit">
                     </Button>
                 </Form>
             </Row>

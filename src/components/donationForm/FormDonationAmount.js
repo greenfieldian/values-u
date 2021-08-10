@@ -146,7 +146,7 @@ const FormDonationAmount = () => (
             <div>
                 <div className='outer-section'>
                     <div className="form-section form-info no-border">
-                        <Button />
+                        <Button label="Continue to Payment"/>
                     </div>
                 </div>
                 <div className='form-footnote'>

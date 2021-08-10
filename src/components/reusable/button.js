@@ -4,9 +4,9 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 
 import './button.css'
 
-const Button = () => (
+const Button = (props, text) => (
     <div>
-        <Link to="/donate" className="hero-btn">Continue to payment <FaArrowCircleRight className="fa-arrow-right" /></Link>
+        <Link to="/donate" className="hero-btn">{props.label}<FaArrowCircleRight className="fa-arrow-right" /></Link>
     </div>
 )
 

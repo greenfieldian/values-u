@@ -2,18 +2,17 @@ import * as React from "react"
 import Hero from "../components/hero"
 import { Container, Dropdown, Row } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Link } from "gatsby"
 import Donate from "../components/donate"
 
+import '../styles/about.css'
+
 const AboutPage = () => (
     <Layout>
       <Seo title="Page two" />
       <Hero />
-      <h1>Hi from the second page</h1>
-      <p>Welcome to page 2</p>
       <Container>
         <Row>
           <div className="col-lg-3 col-md-12 p-0 sidebar">
@@ -37,7 +36,7 @@ const AboutPage = () => (
               </ul>
               <div className="category-select">
                 <Dropdown>
-                <Dropdown.Toggle>
+                <Dropdown.Toggle >
                   Custom toggle
                 </Dropdown.Toggle>
                   <Dropdown.Menu>
@@ -52,15 +51,15 @@ const AboutPage = () => (
             </div>
           </div>
           <div className="col-lg-8 col-md-12">
-            <figure>
+            <figure className="intro-video-fig">
               <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P9ccfu4qmd8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
-            <blockquote>
+            <blockquote className="mission-blockquote">
               <p>Disseminate universal Jewish values in politics, culture, and media, making the Jewish people a light unto the Nations.</p>
             </blockquote>
             <hr></hr>
             <div>
-              <h5>The mission of Tulsa Campaign to Prevent Teen Pregnancy was to equip the community with strategies to reduce teen pregnancy for the purpose of improving the health and economic well-being for all.</h5>
+              <h5 className="mission-explanation">The mission of Tulsa Campaign to Prevent Teen Pregnancy was to equip the community with strategies to reduce teen pregnancy for the purpose of improving the health and economic well-being for all.</h5>
             </div>
             <div>
               <p>Tulsa Campaign was developed as the backbone organization for teen pregnancy prevention work in Tulsa.</p>
@@ -102,9 +101,9 @@ const AboutPage = () => (
               <p>Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater influence on life on planet Earth than it’s own satellite, the moon. When you think about it, we regard the moon with such powerful significance that unlike the moons of other planets which we give names, we only refer to our one and only orbiting orb as THE moon. It is not a moon. To us, it is the one and only moon. of the axis, that is the polar caps would shift dramatically with each seasonal rotation producing climacteric, changes much more violent and drastic than we are used to.</p>
             </div>
           </div>
-          <Donate />
         </Row>
       </Container>
+      <Donate />
     </Layout>
   )
   

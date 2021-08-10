@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap"
 import { FaArrowCircleRight } from 'react-icons/fa';
 
 import '../styles/hero.css'
+import Button from "./reusable/button";
 
 const Hero = () => (
     <section>
@@ -16,7 +17,7 @@ const Hero = () => (
                         <p>The Values University (VU) initiative explores the values that shape and create our realities from a personal approach, highlighting the global leaders, change makers and influencers whose adherence to their specific values promote social-cohesion, peace-building and a more unified global community.</p>
                     </div>
                     <div>
-                        <Link to="/donate" className="hero-btn">Help us grow <FaArrowCircleRight className="fa-arrow-right" /></Link>
+                        <Button label="Help us grow"/>
                     </div>
                 </div>
             </div>
