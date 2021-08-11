@@ -1,4 +1,5 @@
 import * as React from "react"
+import { graphql } from "graphql";
 import get from 'lodash/get'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/layout"
