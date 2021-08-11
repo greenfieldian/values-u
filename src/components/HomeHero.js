@@ -1,7 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { Container, Row } from "react-bootstrap"
-import { FaArrowCircleRight } from 'react-icons/fa';
 import { StaticImage } from 'gatsby-plugin-image'
 
 import '../styles/home-hero.css';
@@ -10,11 +8,11 @@ import Button from "./reusable/button";
 
 
 const HomeHero = () => (
-    <section>
+    <section className="home-hero-container">
         <div>
             <div className="pt-5 position-relative">
                 <Container>
-                    <Row className="justify-content-center">
+                    <div className="justify-content-center">
                         <div className="col-sm-11 col-md-10 col-lg-7 col-xl order-lg-2">
                             <div className="position-relative d-flex align-items-center justify-content-center h-100">
                                 <div className="position-relative w-100">
@@ -56,16 +54,16 @@ const HomeHero = () => (
                             </div>
                         </div>
                         <div>
-                            <h1>Explore <br /> 
+                            <h1 className="home-hero-header">Explore <br /> 
                             <b>The Values</b> <br/> that matter most</h1>
                         </div>
                         <div>
-                            <p>The Values University (VU) initiative explores the values that shape and create our realities from a personal approach, highlighting the global leaders, change makers and influencers whose adherence to their specific values promote social-cohesion, peace-building and a more unified global community.</p>
+                            <p className="home-hero-description">The Values University (VU) initiative explores the values that shape and create our realities, highlighting the global leaders, change makers and influencers whose adherence to their values promote a more unified global community.</p>
                         </div>
                         <div>
                             <Button label="Browse Media"/>
                         </div>
-                    </Row>
+                    </div>
                 </Container>
             </div>
         </div>

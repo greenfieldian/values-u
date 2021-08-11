@@ -18,7 +18,7 @@ const Footer = () => (
                                 <div className="input_contain">
                                     <label className="visually-hidden">EMAIL*</label>
                                     <input className="footer_input" placeholder="Email address"></input>
-                                    <IoMail className="email-icon"/>
+                                    <IoMail className="email-icon" color='#3DA9FC'/>
                                 </div>
                                 <div>
                                     <Button className="footer_btn" variant="dark">Subscribe</Button>

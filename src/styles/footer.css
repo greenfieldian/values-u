@@ -6,6 +6,7 @@
     margin-bottom: 2rem;
     font-size: 1.225rem;
     line-height: 1.4;
+    color: #094067;
 }
 .sub_contain {
     margin-bottom: 2rem;
@@ -44,6 +45,7 @@
     padding: .875rem 2rem;
     font-size: 1rem;
     text-align: center;
+    background: #3DA9FC;
     color: #fff;
     letter-spacing: .02em;
     border: none;
@@ -69,13 +71,14 @@
     font-style: italic;
     font-size: .725rem;
     line-height: 1.8;
+    color: #5F6C7B;
 }
 .main-nav-container {
     padding: 30px 0;
 }
 .main-nav-container a {
     text-decoration: none;
-    color: #000;
+    color: #3DA9FC;
 }
 .footer-legal-link {
     font-size: .875rem;

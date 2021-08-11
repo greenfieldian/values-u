@@ -1,43 +1,35 @@
-import React from 'react'
-import { graphql} from 'gatsby'
+import React from "react"
 import get from 'lodash/get'
-import VideoPreview from '../video-preview'
+import { useStaticQuery, graphql } from "gatsby"
 
-import '../../pages/videos.css'
+export default function BiteSizeWidget() {
+  const data = useStaticQuery(graphql`
+    query HeaderQuery {
+      allContentfulVideoPost {
+        edges {
+          node {
+            title
+            slug
+            thumbnail {
+              fluid(maxWidth: 10, maxHeight: 10) {
+                ...GatsbyContentfulFluid_tracedSVG
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
 
-class BiteSize extends React.Component {
-  render() {
-    const videos = get(this, 'props.data.allContentfulVideoPost.edges')
-
-    return (
-        <div style={{ background: '#fff' }} className="container">
-          <div className="wrapper">
-            {/*<h2 className="section-headline">Recent articles</h2>*/}
-            <ul className="video-list d-flex justify-content-between flex-wrap">
-              {videos.map(({ node }) => {
+  return (
+    <header>
+      {data.edges.map(({ node }) => {
                 return (
                   <li key={node.slug} className="video-item">
-                    
+                    <div>{data.edged.node.title}</div>
                   </li>
                 )
               })}
-            </ul>
-          </div>
-        </div>
-    )
-  }
+    </header>
+  )
 }
-
-export default BiteSize
-
-export const useStaticQuery = graphql`
-query BiteSizeWidgetIndexQuery {
-  allContentfulVideoPost {
-    edges {
-      node {
-        title
-      }
-    }
-  }
-}
-`

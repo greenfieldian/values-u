@@ -9,8 +9,8 @@ import '../styles/contact.css'
 
 const ContactPage = () => (
     <Layout>
-        <Hero />
-        <Container>
+        <Hero title="Contact Us"/>
+        <Container className="contact-form-container">
             <Row>
                 <Form>
                     <Form.Group controlId="formFile" className="mb-3">

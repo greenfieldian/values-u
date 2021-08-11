@@ -1,5 +1,5 @@
-section {
-    background: #aaa;
+.hero-section {
+    background: #D8EEFE !important;
     height: auto;
 }
 .hero_wrapper {

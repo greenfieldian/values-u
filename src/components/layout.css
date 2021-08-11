@@ -586,17 +586,7 @@ pre tt:after {
   }
 }
 
-/* HOMEPAGE HERO */
-.hero-btn {
-  padding: 12px 12px 12px 18px !important;
-  background-color: #fff;
-  border-radius: 100px;
-  text-decoration: none;
-  color: #000;
-  font-weight: 700;
-  margin-top: .5rem ;
-  display: inline-block;
-}
+
 
 
 /* BOOTSTRAP OVERRIDES */

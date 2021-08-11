@@ -8,7 +8,8 @@ const Header = () => (
   <Container>
   <Navbar.Brand href="/">
     <StaticImage 
-    src="../images/values-u logo idea 2.png"
+      src="../images/values-u logo idea 2.png"
+      height={30}
     />
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
