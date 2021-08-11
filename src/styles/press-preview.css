@@ -1,0 +1,15 @@
+.press-image-wrapper {
+    flex-basis: 35%;
+}
+.press-image-wrapper .press-image {
+    min-height: 100px;
+}
+.press-text-wrapper {
+    color: #094067;
+    flex-basis: 65%;
+    padding-left: 15px;
+}
+.press-text-wrapper h2 {
+    font-size: 18px;
+    letter-spacing: .45px;
+}

@@ -12,7 +12,7 @@ import '../styles/about.css'
 const AboutPage = () => (
     <Layout>
       <Seo title="Page two" />
-      <Hero />
+      <Hero title="About Us"/>
       <Container>
         <Row>
           <div className="col-lg-3 col-md-12 p-0 sidebar">

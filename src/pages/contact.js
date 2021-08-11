@@ -9,9 +9,9 @@ import '../styles/contact.css'
 
 const ContactPage = () => (
     <Layout>
-        <Hero title="Contact Us"/>
+        <Hero title="Contact Us" description="Have any questions, feeling inspired and want to get involved, or simply want to provide some feedback? Contact us through our online submission form - we would love to hear from you."/>
         <Container className="contact-form-container">
-            <Row>
+            <div>
                 <Form>
                     <Form.Group controlId="formFile" className="mb-3">
                         <Form.Label>First Name</Form.Label>
@@ -45,7 +45,7 @@ const ContactPage = () => (
                     <Button  type="submit" label="Submit">
                     </Button>
                 </Form>
-            </Row>
+            </div>
         </Container>
         <Donate />
     </Layout>
