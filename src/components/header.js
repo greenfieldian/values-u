@@ -23,13 +23,13 @@ const Header = () => (
         <NavDropdown.Item href="/podcast">Podcast</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="About Us" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Our Mission</NavDropdown.Item>
+        <NavDropdown.Item href="/about">Our Mission</NavDropdown.Item>
         <NavDropdown.Item href="/contributors">Featured Contributors</NavDropdown.Item>
         <NavDropdown.Item href="/press">Press</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link href="/contact">Contact Us</Nav.Link>
       <NavDropdown title="Get Involved" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Events</NavDropdown.Item>
+        <NavDropdown.Item href="/events">Events</NavDropdown.Item>
         <NavDropdown.Item href="/donate">Become a Member</NavDropdown.Item>
       </NavDropdown>
     </Nav>

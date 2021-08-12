@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet'
 import get from 'lodash/get'
 import Layout from '../components/layout'
 
-
 class VideoPostTemplate extends React.Component {
   render() {
     const video = get(this.props, 'data.contentfulVideoPost')

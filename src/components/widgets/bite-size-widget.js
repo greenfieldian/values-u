@@ -1,15 +1,14 @@
 import React from "react"
-import get from 'lodash/get'
 import { useStaticQuery, graphql } from "gatsby"
+import Img from 'gatsby-image'
 
 export default function BiteSizeWidget() {
   const data = useStaticQuery(graphql`
-    query HeaderQuery {
-      allContentfulVideoPost {
+    query MyQuery {
+      allContentfulVideoPost(filter: {category: {title: {eq: "Bite Size"}}}) {
         edges {
           node {
             title
-            slug
             thumbnail {
               fluid(maxWidth: 10, maxHeight: 10) {
                 ...GatsbyContentfulFluid_tracedSVG
@@ -23,13 +22,20 @@ export default function BiteSizeWidget() {
 
   return (
     <header>
-      {data.edges.map(({ node }) => {
-                return (
-                  <li key={node.slug} className="video-item">
-                    <div>{data.edged.node.title}</div>
-                  </li>
-                )
-              })}
+      {data.allContentfulVideoPost.edges.map(( {node} ) => {
+        return (
+          <div>
+            <div>
+              <Img
+                className="video-thumbnail"
+                alt={node.title}
+                fluid={node.thumbnail.fluid}
+              />
+            </div>
+            <h1>{node.title}</h1>
+          </div>
+        )
+      })}
     </header>
   )
 }
