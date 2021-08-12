@@ -602,3 +602,15 @@ pre tt:after {
 .dropdown a{
   color: #000;
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+.nav-item {
+  margin-left: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  .dropdown-toggle::after {
+    display: none;
+  }
+}

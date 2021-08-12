@@ -66,7 +66,7 @@ const Footer = () => (
                             </dl>
                         </nav>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center order-3 legal-links">
                         <nav>
                             <ul>
                                 <li className="footer-legal-link"><Link>Privacy Policy</Link></li>

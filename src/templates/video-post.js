@@ -23,7 +23,7 @@ class VideoPostTemplate extends React.Component {
               {video.publishDate}
             </p>
             <div
-             
+              dangerouslySetInnerHTML={{__html: video.videoEmbed.childMarkdownRemark.html}}
             />
           </div>
         </div>
@@ -39,6 +39,11 @@ export const pageQuery = graphql`
     contentfulVideoPost(slug: { eq: $slug }) {
       title
       publishDate(formatString: "MMMM Do, YYYY")
+      videoEmbed {
+        childMarkdownRemark {
+          html
+        }
+      }
     }
   }
 `
