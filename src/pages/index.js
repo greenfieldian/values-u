@@ -16,7 +16,12 @@ const IndexPage = () => (
     <main>
       <div className="container">
         <BiteSizeWidget />
-        <ContributorWidget />
+        <div className="influencer-widget-container">
+          <div className="influencer-widget-header text-center">
+            <h1>The Influencers Behind our Values</h1>
+          </div>
+          <ContributorWidget />
+        </div>
       </div>
     </main>
     <Donate />

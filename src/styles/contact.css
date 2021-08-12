@@ -2,6 +2,17 @@
     padding-top: 40px;
     color: #094067;
 }
+.form-control, .form-select {
+    border: none;
+    background-color: rgb(240, 243, 245);
+}
+.form-control[type="textarea"] {
+    height: 100px;
+}
+.contact-form-select {
+    border: none;
+    margin-bottom: 1rem;
+}
 @media only screen and (min-width: 768px) {
     .contact-form-container form {
         display: flex;
@@ -19,18 +30,7 @@
     .contact-form-select, .form-textarea {
         flex-basis: 100%;
     }
-    .contact-form-select {
-        border: none;
-        margin-bottom: 1rem;
-    }
-    .form-control, .form-select {
-        border: none;
-        background-color: rgb(240, 243, 245);
-    }
     .form-select {
         height: 45px;
-    }
-    .form-control[type="textarea"] {
-        height: 100px;
     }
 }

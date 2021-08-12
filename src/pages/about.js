@@ -8,6 +8,7 @@ import { Link } from "gatsby"
 import Donate from "../components/donate"
 
 import '../styles/about.css'
+import Button from "../components/reusable/button"
 
 const AboutPage = () => (
     <Layout>
@@ -65,7 +66,9 @@ const AboutPage = () => (
               <p>Spearheaded by “America’s Rabbi” Rabbi Shmuley Boteach, in close cooperation with celebrated philanthropist and Chairman of Carnegie Hall Mr. Robert Smith, the VU initiative was developed  to help spread values  at the global level, highlighting  the individual experiences and approaches of global change makers and influencers, leveraging  personal narratives to help contribute towards a universal consensus on social cohesion, unity and cooperation.  </p>
             </div>
             <hr></hr>
-            <div>
+            <div className="team">
+            <div><h2>The Team</h2></div>
+            <div className="team-item">
               <figure>
                 <StaticImage
                   src="../images/robertsmith-main-trans.png"
@@ -74,13 +77,14 @@ const AboutPage = () => (
                   formats={["AUTO", "WEBP", "AVIF"]}
                   alt="A Gatsby astronaut"
                   style={{ marginBottom: `1.45rem` }}
+                  className="team-image"
                 />
               </figure>
               <div>
                 <h5>Rabbi Shmuley</h5>
-                <h6>Executive Director</h6>
+                <h6>Executive Producer</h6>
               </div>
-              <p>Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater influence on life on planet Earth than it’s own satellite, the moon. When you think about it, we regard the moon with such powerful significance that unlike the moons of other planets which we give names, we only refer to our one and only orbiting orb as THE moon. It is not a moon. To us, it is the one and only moon. of the axis, that is the polar caps would shift dramatically with each seasonal rotation producing climacteric, changes much more violent and drastic than we are used to.</p>
+              <hr></hr>
             </div>
             <div>
             <figure>
@@ -94,10 +98,15 @@ const AboutPage = () => (
                 />
               </figure>
               <div>
-                <h5>Rabbi Shmuley</h5>
-                <h6>Executive Director</h6>
+                <h5>Robert F. Smith</h5>
+                <h6>Executive Producer</h6>
               </div>
-              <p>Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater influence on life on planet Earth than it’s own satellite, the moon. When you think about it, we regard the moon with such powerful significance that unlike the moons of other planets which we give names, we only refer to our one and only orbiting orb as THE moon. It is not a moon. To us, it is the one and only moon. of the axis, that is the polar caps would shift dramatically with each seasonal rotation producing climacteric, changes much more violent and drastic than we are used to.</p>
+            </div>
+            </div>
+            <hr></hr>
+            <div>
+              <p>Want to make your impact on a values based approach to social-cohesion, peace-building and a sustainable global community? We are always looking for passionate and hard-working individuals to join our team</p>
+              <Button />
             </div>
           </div>
         </Row>

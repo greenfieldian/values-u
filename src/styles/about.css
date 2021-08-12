@@ -27,3 +27,9 @@
     line-height: 1.25;
     letter-spacing: -.75px;
 }
+.team {
+    text-align: center;
+}
+.team h5 {
+    font-size: 24px;
+}
