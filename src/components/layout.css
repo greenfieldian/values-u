@@ -585,6 +585,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+@media only screen and (min-width: 768px) {
+  h1, .h1 {
+    font-size: 2.1875rem;
+  }
+}
 
 
 
@@ -607,7 +612,7 @@ pre tt:after {
   margin-top: 0; 
 }
 .nav-item {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 @media only screen and (min-width: 1024px) {
   .dropdown-toggle::after {

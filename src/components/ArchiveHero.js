@@ -6,18 +6,15 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 import '../styles/archive-hero.css'
 import Button from "./reusable/button";
 
-const ArchiveHero = () => (
-    <section>
+const ArchiveHero = (props) => (
+    <section className="archive-section">
         <Container>
             <div className="hero_wrapper">
                 <div></div>
                 <div>
-                    <h1>About ValuesU</h1>
+                    <h1>{props.title}</h1>
                     <div>
-                        <p>The Values University (VU) initiative explores the values that shape and create our realities from a personal approach, highlighting the global leaders, change makers and influencers whose adherence to their specific values promote social-cohesion, peace-building and a more unified global community.</p>
-                    </div>
-                    <div>
-                        <Button />
+                        <p>{props.desc}</p>
                     </div>
                 </div>
             </div>

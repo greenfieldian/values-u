@@ -19,7 +19,7 @@ class BiteSize extends React.Component {
         <ArchiveHero />
         <div style={{ background: '#fff' }} className="container">
           <Helmet title={siteTitle} />
-          <div className="wrapper">
+          <div className="videos-wrapper">
             {/*<h2 className="section-headline">Recent articles</h2>*/}
             <ul className="video-list d-flex justify-content-between flex-wrap">
               {videos.map(({ node }) => {

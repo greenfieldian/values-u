@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from 'gatsby-image'
+import VideoPreview from '../video-preview'
 
 export default function BiteSizeWidget() {
   const data = useStaticQuery(graphql`
@@ -24,7 +25,14 @@ export default function BiteSizeWidget() {
     <header>
       {data.allContentfulVideoPost.edges.map(( {node} ) => {
         return (
-          <div>
+          <VideoPreview video={node} />
+        )
+      })}
+    </header>
+  )
+}
+
+/*<div>
             <div>
               <Img
                 className="video-thumbnail"
@@ -33,9 +41,4 @@ export default function BiteSizeWidget() {
               />
             </div>
             <h1>{node.title}</h1>
-          </div>
-        )
-      })}
-    </header>
-  )
-}
+          </div>*/

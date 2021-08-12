@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Header = () => (
 
-  <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top" className="py-4">
+  <Navbar collapseOnSelect expand="lg" bg="white" variant="light" sticky="top" className="py-4 nav-bar">
   <Container>
   <Navbar.Brand href="/">
     <StaticImage 

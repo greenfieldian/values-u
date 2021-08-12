@@ -13,23 +13,23 @@ const ContactPage = () => (
         <Container className="contact-form-container">
             <div>
                 <Form>
-                    <Form.Group controlId="formFile" className="mb-3">
+                    <Form.Group controlId="formFile" className="mb-3 form-item-flex">
                         <Form.Label>First Name</Form.Label>
                         <Form.Control type="text" />
                     </Form.Group>
-                    <Form.Group controlId="formFile" className="mb-3">
+                    <Form.Group controlId="formFile" className="mb-3 form-item-flex">
                         <Form.Label>Last Name</Form.Label>
                         <Form.Control type="text" />
                     </Form.Group>
-                    <Form.Group controlId="formFile" className="mb-3">
+                    <Form.Group controlId="formFile" className="mb-3 form-item-flex">
                         <Form.Label>Phone</Form.Label>
                         <Form.Control type="tel" />
                     </Form.Group>
-                    <Form.Group controlId="formFile" className="mb-3">
+                    <Form.Group controlId="formFile" className="mb-3 form-item-flex">
                         <Form.Label>Email</Form.Label>
                         <Form.Control type="email" />
                     </Form.Group>
-                    <Form.Group>
+                    <Form.Group className="contact-form-select">
                         <Form.Label>Subject</Form.Label>
                         <Form.Select aria-label="Default select example">
                             <option>General Inquiry</option>
@@ -38,9 +38,9 @@ const ContactPage = () => (
                             <option>Tech Support</option>
                         </Form.Select>
                     </Form.Group>
-                    <Form.Group controlId="formFile" className="mb-3">
+                    <Form.Group controlId="formFile" className="mb-3 form-textarea">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control type="textarea" />
+                        <Form.Control type="textarea" as="textarea" rows={5}/>
                     </Form.Group>
                     <Button  type="submit" label="Submit">
                     </Button>

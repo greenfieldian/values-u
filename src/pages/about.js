@@ -34,7 +34,7 @@ const AboutPage = () => (
                   <Link>Help Us Grow</Link>
                 </li>
               </ul>
-              <div className="category-select">
+              <div className="category-select d-none">
                 <Dropdown>
                 <Dropdown.Toggle >
                   Custom toggle
@@ -59,11 +59,10 @@ const AboutPage = () => (
             </blockquote>
             <hr></hr>
             <div>
-              <h5 className="mission-explanation">The mission of Tulsa Campaign to Prevent Teen Pregnancy was to equip the community with strategies to reduce teen pregnancy for the purpose of improving the health and economic well-being for all.</h5>
+              <h5 className="mission-explanation">The Values University (VU) initiative explores the values that shape and create our realities from a personal approach, highlighting the global leaders, change makers and influencer’s whose adherence to their specific values promotes social-cohesion, peace-building and a more unified global community.</h5>
             </div>
             <div>
-              <p>Tulsa Campaign was developed as the backbone organization for teen pregnancy prevention work in Tulsa.</p>
-              <p>Partnering with organizations working in youth health by providing support, organization, and training for the implementation and expansion of sex education.</p>
+              <p>Spearheaded by “America’s Rabbi” Rabbi Shmuley Boteach, in close cooperation with celebrated philanthropist and Chairman of Carnegie Hall Mr. Robert Smith, the VU initiative was developed  to help spread values  at the global level, highlighting  the individual experiences and approaches of global change makers and influencers, leveraging  personal narratives to help contribute towards a universal consensus on social cohesion, unity and cooperation.  </p>
             </div>
             <hr></hr>
             <div>

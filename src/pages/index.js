@@ -13,8 +13,12 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <HomeHero />
-    <BiteSizeWidget />
-    <ContributorWidget />
+    <main>
+      <div className="container">
+        <BiteSizeWidget />
+        <ContributorWidget />
+      </div>
+    </main>
     <Donate />
   </Layout>
 )

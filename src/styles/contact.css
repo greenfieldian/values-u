@@ -2,3 +2,35 @@
     padding-top: 40px;
     color: #094067;
 }
+@media only screen and (min-width: 768px) {
+    .contact-form-container form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0;
+        padding: 60px 0;
+    }
+    .form-item-flex {
+        flex-basis: 48%;
+    }
+    .contact-form-select, .form-textarea {
+        flex-basis: 100%;
+    }
+    .contact-form-select {
+        border: none;
+        margin-bottom: 1rem;
+    }
+    .form-control, .form-select {
+        border: none;
+        background-color: rgb(240, 243, 245);
+    }
+    .form-select {
+        height: 45px;
+    }
+    .form-control[type="textarea"] {
+        height: 100px;
+    }
+}

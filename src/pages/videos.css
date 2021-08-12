@@ -1,3 +1,7 @@
+.videos-wrapper {
+    margin-top: 4rem;
+}
 .video-item {
     flex-basis: 48%;
+    list-style-type: none;
 }
