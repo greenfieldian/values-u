@@ -6,6 +6,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        typekit: {
+          id: process.env.TYPEKIT_ID,
+        },
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         // Footnotes mode (default: true)
