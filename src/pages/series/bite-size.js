@@ -17,7 +17,7 @@ class BiteSize extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <ArchiveHero Imgsrc={BiteSizeImg}/>
+        <ArchiveHero Imgsrc={BiteSizeImg} description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
         <div style={{ background: '#fff' }} className="container">
           <Helmet title={siteTitle} />
           <div className="videos-wrapper">

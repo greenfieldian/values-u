@@ -55,12 +55,12 @@ const Footer = () => (
                                 <dd>Come learn what a values based lifestyle means to us at the Values University, why it is a topic we find so significant, and how it can help inspire and reshape your perspectives, leading to a fuller, more enjoyable life. </dd>
 
                                 <dt>
-                                    <Link to="/about-us">About Us</Link>
+                                    <Link to="/about">About Us</Link>
                                 </dt>
                                 <dd>Spearheaded by the World Values Network, the VU initiative was developed  to help spread values  at the global level, highlighting  the individual experiences and approaches of global change makers and influencers, leveraging  personal narratives to help contribute towards a universal consensus on social cohesion, unity and cooperation. </dd>
 
                                 <dt>
-                                    <Link to="/contact-us">Get In Touch</Link>
+                                    <Link to="/contact">Get In Touch</Link>
                                 </dt>
                                 <dd>Have any questions, feeling inspired and want to get involved, or simply want to provide some feedback? Contact us through our online submission form- we would love to hear from you.</dd>
                             </dl>
