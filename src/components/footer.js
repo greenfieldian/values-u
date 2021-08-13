@@ -70,7 +70,7 @@ const Footer = () => (
                         <nav>
                             <ul>
                                 <li className="footer-legal-link"><Link>Privacy Policy</Link></li>
-                                <li className="footer-legal-link"><a>Site Credit</a></li>
+                                <li className="footer-legal-link"><a href="https://shockmouse.com">Site Credit</a></li>
                             </ul>
                         </nav>
                         <p className="footer-rights text-black-50">©The World Values Network, All Rights Reserved</p>

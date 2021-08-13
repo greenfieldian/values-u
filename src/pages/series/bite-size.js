@@ -6,6 +6,7 @@ import Layout from '../../components/layout'
 import Donate from '../../components/donate'
 import ArchiveHero from '../../components/ArchiveHero'
 import VideoPreview from '../../components/video-preview'
+import BiteSizeImg from '../../images/bite-size.svg'
 
 import '../videos.css'
 
@@ -16,7 +17,7 @@ class BiteSize extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <ArchiveHero />
+        <ArchiveHero Imgsrc={BiteSizeImg}/>
         <div style={{ background: '#fff' }} className="container">
           <Helmet title={siteTitle} />
           <div className="videos-wrapper">
@@ -51,6 +52,18 @@ query BiteSizeIndexQuery {
         slug
         thumbnail {
           fluid(maxWidth: 10, maxHeight: 10) {
+            ...GatsbyContentfulFluid_tracedSVG
+          }
+        }
+      }
+    }
+  }
+
+  allContentfulVideoCategory(filter: {title: {eq: "Bite Size"}}) {
+    edges {
+      node {
+        categoryImage {
+          fluid(maxWidth: 600) {
             ...GatsbyContentfulFluid_tracedSVG
           }
         }

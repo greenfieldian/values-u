@@ -6,6 +6,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.archive-hero-img {
+    margin-bottom: 0 !important;
+    width: 125px;
+}
 p {
     margin-bottom: 2rem;
 }
