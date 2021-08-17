@@ -53,6 +53,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -500,9 +501,6 @@ li > ul {
 blockquote *:last-child {
   margin-bottom: 0;
 }
-li *:last-child {
-  margin-bottom: 0;
-}
 p *:last-child {
   margin-bottom: 0;
 }
@@ -594,6 +592,7 @@ pre tt:after {
 /* HOMEPAGE STYLES */
 .influencer-widget-header h1{
   font-size: 1.5rem;
+  color: #094067;
 }
 
 @media only screen and (min-width: 768px) {

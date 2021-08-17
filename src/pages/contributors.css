@@ -1,0 +1,11 @@
+@media only screen and (min-width: 768px) {
+    .video-item {
+        flex-basis: 32% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .video-item {
+        flex-basis: 15% !important;
+    }
+}

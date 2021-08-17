@@ -7,6 +7,7 @@ import Donate from '../components/donate'
 import ArchiveHero from '../components/ArchiveHero'
 import ContributorPreview from '../components/contributor-preview'
 
+import './contributors.css'
 
 class ContributorIndex extends React.Component {
   render() {
@@ -46,6 +47,11 @@ query ContributorIndexQuery {
             node {
             name
             slug
+            headshot {
+              fluid {
+                ...GatsbyContentfulFluid_tracedSVG
+              }
+            }
             }
         }
     }

@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap"
 import '../styles/archive-hero.css'
 
 const ArchiveHero = (props) => (
-    <section className="archive-section">
+    <section className="archive-section mb-5">
         <Container>
             <div className="hero_wrapper text-center text-white">
                 <div className="text-center">

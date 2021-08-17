@@ -2,6 +2,9 @@
     text-transform: uppercase;
     color: #094067;
 }
+.widget-header a {
+    color: #094067;
+}
 .widget-container h5{
     font-size: 1rem;
 }

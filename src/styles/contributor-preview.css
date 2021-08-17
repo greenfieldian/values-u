@@ -1,0 +1,27 @@
+
+.contributor-image {
+    border-radius: 999px;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contributor-container h1 {
+    font-size: 1rem;
+}
+
+.contributor-container h1 a {
+    color: #094067;
+}
+
+@media only screen and (min-width: 768px) {
+    .contributor-preview-item {
+        flex-basis: 32%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .contributor-image {
+        width: 175px;
+        height: 175px;
+    }
+}
