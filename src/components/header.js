@@ -10,7 +10,7 @@ const Header = () => (
   <Container>
   <Navbar.Brand href="/">
     <StaticImage 
-      src="../images/values-u logo idea 2.png"
+      src="../images/values-u logo.png"
       height={30}
     />
   </Navbar.Brand>
@@ -35,7 +35,7 @@ const Header = () => (
         <NavDropdown.Item href="/donate">Become a Member</NavDropdown.Item>
       </NavDropdown>
     </Nav>
-    <Button className="nav-item nav-item-btn">Join</Button>
+    {/*<Button className="nav-item nav-item-btn">Join</Button>*/}
     <Button className="nav-item nav-item-btn">Donate</Button>
   </Navbar.Collapse>
   </Container>

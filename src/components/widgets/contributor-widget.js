@@ -23,7 +23,7 @@ export default function ContributorWidget() {
   `)
 
   return (
-    <div className="contributor-widget-list">
+    <div className="contributor-widget-list mb-5">
       {data.allContentfulContributor.edges.map(( {node} ) => {
         return (
           <div className="contributor-widget-item text-center">

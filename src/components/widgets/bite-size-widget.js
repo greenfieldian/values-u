@@ -26,7 +26,7 @@ export default function BiteSizeWidget() {
   `)
 
   return (
-    <div className='bite-size-widget widget-container'>
+    <div className='bite-size-widget widget-container mb-5'>
       <div className="d-flex justify-content-between widget-header">
         <h5 className="mt-0 mb-1">Bite Size Videos</h5>
         <h5 className="mb-3">Explore all</h5>

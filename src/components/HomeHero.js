@@ -62,7 +62,7 @@ const HomeHero = () => (
                                 <p className="home-hero-description">The Values University (VU) initiative explores the values that shape and create our realities, highlighting the global leaders, change makers and influencers whose adherence to their values promote a more unified global community.</p>
                             </div>
                             <div>
-                                <Button label="Browse Media"/>
+                                <Button label="Browse Media" link="/videos"/>
                             </div>
                         </div>
                     </div>
