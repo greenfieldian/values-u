@@ -8,7 +8,7 @@ import Button from "./reusable/button";
 
 
 const HomeHero = () => (
-    <section className="home-hero-container">
+    <section className="home-hero-container mb-5">
         <div>
             <div className="pt-5 position-relative">
                 <Container>

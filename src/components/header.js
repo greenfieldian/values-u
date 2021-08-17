@@ -36,7 +36,7 @@ const Header = () => (
       </NavDropdown>
     </Nav>
     {/*<Button className="nav-item nav-item-btn">Join</Button>*/}
-    <Button className="nav-item nav-item-btn">Donate</Button>
+    <Button className="nav-item nav-item-btn" href="/donate">Donate</Button>
   </Navbar.Collapse>
   </Container>
 </Navbar>

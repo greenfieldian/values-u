@@ -43,9 +43,7 @@ export default BiteSize
 
 export const pageQuery = graphql`
 query BiteSizeIndexQuery {
-  allContentfulVideoPost (limit: 1,
-    filter: {children: {}, category: {title: {eq: "Bite Size"}}}
-  ){
+  allContentfulVideoPost (filter: {children: {}, category: {title: {eq: "Bite Size"}}}){
     edges {
       node {
         title

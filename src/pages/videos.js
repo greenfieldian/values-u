@@ -48,7 +48,7 @@ query VideoIndexQuery {
         title
         slug
         thumbnail {
-          fluid(maxWidth: 10, maxHeight: 10) {
+          fluid {
             ...GatsbyContentfulFluid_tracedSVG
           }
         }
