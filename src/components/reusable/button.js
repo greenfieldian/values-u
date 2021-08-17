@@ -6,7 +6,7 @@ import './button.css'
 
 const Button = (props, text) => (
     <div>
-        <Link to={props.link} className="reusable-btn">{props.label}<FaArrowCircleRight className="fa-arrow-right" /></Link>
+        <Link to={props.link} className="reusable-btn">{props.label}</Link>
     </div>
 )
 

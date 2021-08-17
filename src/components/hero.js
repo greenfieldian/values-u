@@ -9,7 +9,7 @@ import Button from "./reusable/button";
 const Hero = (props) => (
     <section className="hero-section">
         <Container>
-            <div className="hero_wrapper">
+            <div className="hero_wrapper mb-5">
                 <div></div>
                 <div>
                     <h1>{props.title}</h1>
