@@ -24,7 +24,7 @@ class ContributorIndex extends React.Component {
             <ul className="video-list d-flex justify-content-between flex-wrap">
               {contributors.map(({ node }) => {
                 return (
-                  <li key={node.slug} className="video-item">
+                  <li key={node.slug} className="contributor-item">
                     <ContributorPreview contributor={node}/>
                   </li>
                 )

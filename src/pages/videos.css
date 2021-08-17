@@ -5,3 +5,8 @@
     flex-basis: 48%;
     list-style-type: none;
 }
+@media only screen and (min-width: 768px) {
+    .video-item {
+        flex-basis: 24%;
+    }
+}
