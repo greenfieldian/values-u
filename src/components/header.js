@@ -2,6 +2,8 @@ import * as React from "react"
 import { Navbar, Nav, Container, NavDropdown, Button } from "react-bootstrap"
 import { StaticImage } from 'gatsby-plugin-image'
 
+import '../styles/header.css'
+
 const Header = () => (
 
   <Navbar collapseOnSelect expand="lg" bg="white" variant="light" sticky="top" className="py-4 nav-bar">
@@ -33,8 +35,8 @@ const Header = () => (
         <NavDropdown.Item href="/donate">Become a Member</NavDropdown.Item>
       </NavDropdown>
     </Nav>
-    <Button className="nav-item">Join</Button>
-    <Button className="nav-item">Donate</Button>
+    <Button className="nav-item nav-item-btn">Join</Button>
+    <Button className="nav-item nav-item-btn">Donate</Button>
   </Navbar.Collapse>
   </Container>
 </Navbar>
