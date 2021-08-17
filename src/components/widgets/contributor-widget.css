@@ -1,0 +1,18 @@
+.contributor-widget-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contributor-widget-item {
+    flex-basis: 48%;
+}
+.contributor-widget-img {
+    border-radius: 999px;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contributor-widget-item h1 {
+    font-size: 1rem;
+}

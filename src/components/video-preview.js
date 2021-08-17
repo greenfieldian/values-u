@@ -7,7 +7,7 @@ import '../styles/video-preview.css'
 
 export default ({ video }) => (
 
-  <article>
+  <article className="video-prev-contain mb-3">
       <div>
           <Img
               className="video-thumbnail"

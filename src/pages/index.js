@@ -18,7 +18,7 @@ const IndexPage = () => (
         <BiteSizeWidget />
         <div className="influencer-widget-container">
           <div className="influencer-widget-header text-center">
-            <h1>The Influencers Behind our Values</h1>
+            <h1>Meet the influencers behind our values.</h1>
           </div>
           <ContributorWidget />
         </div>

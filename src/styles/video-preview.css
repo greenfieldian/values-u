@@ -1,3 +1,6 @@
+.video-prev-contain {
+    flex-basis: 48%;
+}
 .video-thumbnail {
     height: 100px;
     border-radius: 5px;

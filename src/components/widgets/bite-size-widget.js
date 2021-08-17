@@ -3,6 +3,10 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from 'gatsby-image'
 import VideoPreview from '../video-preview'
 
+import './bite-size-widget.css'
+
+
+
 export default function BiteSizeWidget() {
   const data = useStaticQuery(graphql`
     query MyQuery {
@@ -22,13 +26,20 @@ export default function BiteSizeWidget() {
   `)
 
   return (
-    <header>
+    <div className='bite-size-widget widget-container'>
+      <div className="d-flex justify-content-between widget-header">
+        <h5 className="mt-0 mb-1">Bite Size Videos</h5>
+        <h5 className="mb-3">Explore all</h5>
+      </div>
+      <div className="d-flex flex-wrap justify-content-between">
       {data.allContentfulVideoPost.edges.map(( {node} ) => {
         return (
           <VideoPreview video={node} />
-        )
-      })}
-    </header>
+          )
+        })}
+      </div>
+    </div>
+
   )
 }
 
