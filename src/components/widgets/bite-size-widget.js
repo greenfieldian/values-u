@@ -1,6 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import Img from 'gatsby-image'
 import VideoPreview from '../video-preview'
 
 import './bite-size-widget.css'
