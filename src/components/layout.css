@@ -595,10 +595,6 @@ pre tt:after {
 
 /* BOOTSTRAP OVERRIDES */
 
-.col-lg-3 {
-  position: relative !important;
-}
-
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus,

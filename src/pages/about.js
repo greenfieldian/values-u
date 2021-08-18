@@ -16,38 +16,40 @@ const AboutPage = () => (
       <Hero title="About Us"/>
       <Container>
         <div className="about-page-container">
-          <div className="col-lg-3 col-md-12 p-0 sidebar">
-            <div className="page-links">
-              <ul className="page-links__list">
-                <li className="page_item">
-                  <Link>Our Story</Link>
-                </li>
-                <li className="page_item">
-                  <Link>Our Mission</Link>
-                </li>
-                <li className="page_item">
-                  <Link>The Team</Link>
-                </li>
-                <li className="page_item">
-                  <Link>Join Our Team!</Link>
-                </li>
-                <li className="page_item">
-                  <Link>Help Us Grow</Link>
-                </li>
-              </ul>
+          <div className="sidebar-container">
+            <div className="col-lg-3 col-md-12 p-0 sidebar">
+              <div className="page-links">
+                <ul className="page-links__list">
+                  <li className="page_item">
+                    <Link to="/about/#our-mission">Our Mission</Link>
+                  </li>
+                  <li className="page_item">
+                    <Link to="/about/#our-story">Our Story</Link>
+                  </li>
+                  <li className="page_item">
+                    <Link to="/about/#our-team">The Team</Link>
+                  </li>
+                  <li className="page_item">
+                    <Link to="/about/#join-team">Join Our Team!</Link>
+                  </li>
+                  <li className="page_item">
+                    <Link to="/donate">Help Us Grow</Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="about-main">
             <figure className="intro-video-fig">
               <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P9ccfu4qmd8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
-            <blockquote className="mission-blockquote">
+            <blockquote className="mission-blockquote" id="our-mission">
               <h2 className="mission-blockquote-heading">OUR MISSION</h2>
               <p>Disseminate universal Jewish values in politics, culture, and media, making the Jewish people a light unto the Nations.</p>
             </blockquote>
             <hr></hr>
             <div className="main-mission-container">
-              <div className="main-mission-text">
+              <div className="main-mission-text" id="our-story">
                 <h5 className="mission-explanation">The Values University (VU) initiative explores the values that shape and create our realities from a personal approach, highlighting the global leaders, change makers and influencer’s whose adherence to their specific values promotes social-cohesion, peace-building and a more unified global community.</h5>
               </div>
               <div className="main-mission-text">
@@ -56,7 +58,7 @@ const AboutPage = () => (
             </div>
             <hr></hr>
             <div className="team">
-            <div><h2>Our Team</h2></div>
+            <div id="our-team"><h2>Our Team</h2></div>
             <div className="team-item">
               <figure className="team-item-img team-item-child">
                 <StaticImage
@@ -95,9 +97,9 @@ const AboutPage = () => (
             </div>
             </div>
             <hr></hr>
-            <div className="text-center join-team-text mb-5">
-              <p>Want to make your impact on a values based approach to social-cohesion, peace-building and a sustainable global community? We are always looking for passionate and hard-working individuals to join our team</p>
-              <Button label="JOIN OUR TEAM"/>
+            <div className="join-team-text mb-5" id="join-team">
+              <h2>Join Our Team</h2>
+              <p>Want to make your impact on a values based approach to social-cohesion, peace-building and a sustainable global community? We are always looking for passionate and hard-working individuals to join our team-send your CV to <a href='mailto:info@shmuley.com'>info@shmuley.com</a> today!</p>
             </div>
           </div>
         </div>
