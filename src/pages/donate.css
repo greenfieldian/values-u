@@ -1,0 +1,9 @@
+
+.donorbox-contain iframe {
+    max-width: 500px;
+    min-width: 250px;
+    max-height: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
