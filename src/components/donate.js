@@ -10,7 +10,7 @@ const Donate = () => (
             <div className="donate-cta">
                 <h2>Showcasing values-based living through exclusive tailor-made content.</h2>
                 <p>Your tax-deductible donation will expand ValuesU's initiative of teaching values based living across the globe.</p>
-                <Link className="cta-btn" to='/donate'>Become a Member <FaArrowCircleRight className="fa-arrow-right" /></Link>
+                <Link className="cta-btn" to='/donate'>Help Us Grow <FaArrowCircleRight className="fa-arrow-right" /></Link>
             </div>
         </div>
     </section>

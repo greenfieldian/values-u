@@ -29,10 +29,10 @@ const Footer = () => (
                         <div>
                             <nav>
                                 <ul>
-                                    <li><Link link="" target="_blank"><FaFacebookF/></Link></li>
-                                    <li><Link link="" target="_blank"><FaTwitter/></Link></li>
-                                    <li><Link link="" target="_blank"><FaInstagram /></Link></li>
-                                    <li><Link link="" target="_blank"><FaYoutube /></Link></li>
+                                    <li><a href="https://www.facebook.com/valuesuniversity" target="_blank"><FaFacebookF size="35" color="#3DA9FC"/></a></li>
+                                    <li><a href="https://twitter.com/valuesuni" target="_blank"><FaTwitter size="35" color="#3DA9FC"/></a></li>
+                                    <li><a href="https://www.instagram.com/valuesuniversity/" target="_blank"><FaInstagram size="35" color="#3DA9FC"/></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCiZLU0-2yD4pAKVvj8E_Daw" target="_blank"><FaYoutube size="35" color="#3DA9FC"/></a></li>
                                 </ul>
                             </nav>
                         </div>
