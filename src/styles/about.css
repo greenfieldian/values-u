@@ -89,8 +89,8 @@
     .sidebar {
         flex-basis: 30%;
         display: block;
-        position: sticky;
-        top: 50px;
+        position: sticky !important;
+        top: 100px;
         width: 100%;
     }
     .page_item {
