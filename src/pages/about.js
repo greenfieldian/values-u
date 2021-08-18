@@ -50,7 +50,7 @@ const AboutPage = () => (
             <hr></hr>
             <div className="main-mission-container">
               <div className="main-mission-text" id="our-story">
-                <h5 className="mission-explanation">The Values University (VU) initiative explores the values that shape and create our realities from a personal approach, highlighting the global leaders, change makers and influencer’s whose adherence to their specific values promotes social-cohesion, peace-building and a more unified global community.</h5>
+                <h5 className="mission-explanation">The Values University (VU) initiative explores the values that shape and create our realities from a personal approach, highlighting the global leaders, change makers and influencers whose adherence to their specific values promotes social-cohesion, peace-building and a more unified global community.</h5>
               </div>
               <div className="main-mission-text">
                 <p>Spearheaded by “America’s Rabbi” Rabbi Shmuley Boteach, in close cooperation with celebrated philanthropist and Chairman of Carnegie Hall Mr. Robert Smith, the VU initiative was developed  to help spread values  at the global level, highlighting  the individual experiences and approaches of global change makers and influencers, leveraging  personal narratives to help contribute towards a universal consensus on social cohesion, unity and cooperation.  </p>
@@ -72,7 +72,7 @@ const AboutPage = () => (
               </figure>
               <div className="text-center team-item-text team-item-child">
                 <div className="team-text">
-                  <h5>Rabbi Shmuley</h5>
+                  <h5>Rabbi Shmuley Boteach</h5>
                   <h6>Executive Producer</h6>
                 </div>
               </div>
