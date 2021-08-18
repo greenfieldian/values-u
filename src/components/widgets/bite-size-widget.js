@@ -18,6 +18,7 @@ export default function BiteSizeWidget() {
                 ...GatsbyContentfulFluid_tracedSVG
               }
             }
+            slug
           }
         }
       }

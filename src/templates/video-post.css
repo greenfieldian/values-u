@@ -1,0 +1,26 @@
+.wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.video-post-wrapper {
+    max-width: 46rem;
+    background: #0D5D96;
+    padding-top: 24px;
+    color: #F6FBFE;
+}
+.video-post-wrapper iframe {
+    width: 100%;
+    height: 200px
+}
+.video-post-headline {
+    font-size: 21px;
+}
+.video-meta {
+    display: flex;
+    font-size: 13px;
+}
+.video-contributor-name {
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid rgb(59, 113, 137);
+}
