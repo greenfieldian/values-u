@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { Button, Container } from "react-bootstrap"
 import { IoMail } from "react-icons/io5";
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 import '../styles/footer.css';
 
@@ -28,10 +29,10 @@ const Footer = () => (
                         <div>
                             <nav>
                                 <ul>
-                                    {/*<li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "facebook-f"]} size="2x" /></Link></li>
-                                    <li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} size="2x" /></Link></li>
-                                    <li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "instagram"]} size="2x" /></Link></li>
-<li><Link link="" target="_blank"><FontAwesomeIcon icon={["fab", "youtube"]} size="2x" /></Link></li>*/}
+                                    <li><Link link="" target="_blank"><FaFacebookF/></Link></li>
+                                    <li><Link link="" target="_blank"><FaTwitter/></Link></li>
+                                    <li><Link link="" target="_blank"><FaInstagram /></Link></li>
+                                    <li><Link link="" target="_blank"><FaYoutube /></Link></li>
                                 </ul>
                             </nav>
                         </div>

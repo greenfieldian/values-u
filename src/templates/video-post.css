@@ -4,8 +4,10 @@
 }
 .video-post-wrapper {
     max-width: 46rem;
-    background: #0D5D96;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 24px;
+    padding-bottom: 24px;
     color: #F6FBFE;
 }
 .video-post-wrapper iframe {
@@ -23,4 +25,21 @@
     padding-right: 16px;
     margin-right: 16px;
     border-right: 1px solid rgb(59, 113, 137);
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+    .video-post-wrapper iframe {
+        height: 350px
+    }
+    .video-post-wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .video-post-headline {
+        font-size: 28px;
+    }
 }

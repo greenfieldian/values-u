@@ -16,7 +16,7 @@ class VideoPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <div style={{ background: '#fff' }}>
+        <div style={{ background: '#0D5D96' }}>
           <Helmet title={`${video.title} | ${siteTitle}`} />
           <div className="wrapper video-post-wrapper">
             <div
