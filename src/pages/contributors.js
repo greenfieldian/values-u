@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import Donate from '../components/donate'
-import ArchiveHero from '../components/ArchiveHero'
+import Hero from '../components/Hero'
 import ContributorPreview from '../components/contributor-preview'
 
 import './contributors.css'
@@ -16,7 +16,7 @@ class ContributorIndex extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <ArchiveHero />
+        <Hero title="Our Influencers" description='ValuesU is responsible solely for the content of its influencers in ValuesU videos and other ValuesU-produced media. ValuesU is not responsible for anything said or written by influencers in any other forum.'/>
         <div style={{ background: '#fff' }} className="container">
           <Helmet title={siteTitle} />
           <div className="wrapper">

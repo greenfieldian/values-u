@@ -1,10 +1,11 @@
 .reusable-btn {
-    padding: 12px 12px 12px 18px !important;
+    padding: 12px 12px 12px 12px !important;
     background-color: #3DA9FC !important;
     border-radius: 100px;
     text-decoration: none;
     color: #fff !important;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: .5rem ;
     display: inline-block;
+    font-size: 14px;
 }
