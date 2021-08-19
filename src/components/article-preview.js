@@ -9,11 +9,13 @@ export default ({ article }) => (
   <article >
       <div>
           <div>
+          <Link to={`/blog/${article.slug}`}>
           <Img
               className=""
               alt={article.title}
               fluid={article.heroImage.fluid}
             />
+            </Link>
           </div>
           <h3 className="article-header">
             <Link to={`/blog/${article.slug}`}>{article.title}</Link>

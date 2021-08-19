@@ -18,7 +18,7 @@ class BlogIndex extends React.Component {
         <ArchiveHero />
         <div style={{ background: '#fff' }} className="container">
           <Helmet title={siteTitle} />
-          <div className="wrapper">
+          <div className="">
             {/*<h2 className="section-headline">Recent articles</h2>*/}
             <ul className="article-list">
               {posts.map(({ node }) => {
@@ -47,7 +47,6 @@ export const pageQuery = graphql`
           title
           slug
           publishDate(formatString: "MMMM Do, YYYY")
-          tags
           author {
             name
           }
