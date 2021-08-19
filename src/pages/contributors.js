@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import Donate from '../components/donate'
-import Hero from '../components/Hero'
+import Hero from '../components/hero'
 import ContributorPreview from '../components/contributor-preview'
 
 import './contributors.css'
