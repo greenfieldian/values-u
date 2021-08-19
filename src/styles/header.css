@@ -2,3 +2,9 @@
     background-color: #3DA9FC;
     border: none;
 }
+.nav-item {
+    font-size: 14px;
+}
+.navbar-nav a {
+    color: #094067 !important;
+}
