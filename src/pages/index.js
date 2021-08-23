@@ -6,6 +6,7 @@ import Donate from "../components/donate";
 
 import HomeHero from '../components/HomeHero';
 import BiteSizeWidget from "../components/widgets/bite-size-widget";
+import EldersWidget from "../components/widgets/elders-series-widget";
 import ContributorWidget from "../components/widgets/contributor-widget";
 
 
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <main>
       <div className="container">
         <BiteSizeWidget />
+        <EldersWidget />
         <div className="influencer-widget-container">
           <div className="influencer-widget-header text-center">
             <h1>Meet the influencers behind our values.</h1>

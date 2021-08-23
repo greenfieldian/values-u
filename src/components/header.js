@@ -20,7 +20,7 @@ const Header = () => (
       <NavDropdown title="Media" id="collasible-nav-dropdown">
         <NavDropdown.Item href="/series/bite-size">Bite Size</NavDropdown.Item>
         {/*<NavDropdown.Item href="/series/full-course">Full Course</NavDropdown.Item>*/}
-        {/*<NavDropdown.Item href="/series/elders">Elders Series</NavDropdown.Item>*/}
+        <NavDropdown.Item href="/series/elders">Elders Series</NavDropdown.Item>
         <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
        {/*<NavDropdown.Item href="/podcast">Podcast</NavDropdown.Item>*/}
       </NavDropdown>
