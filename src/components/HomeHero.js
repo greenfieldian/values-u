@@ -21,14 +21,16 @@ const HomeHero = () => (
                                             <div className="position-relative m-2">
                                                 <div className="position-relative overflow-hidden">
                                                     <StaticImage 
-                                                        src="../images/virgil-woods.png"
+                                                        src="../images/virgil-homepage.png"
+                                                        className="hero-image"
                                                     />
                                                 </div>
                                             </div>
                                             <div className="position-relative m-2 mt-lg-4">
                                                 <div className="position-relative overflow-hidden">
                                                     <StaticImage 
-                                                        src="../images/rabbi-shmuley.png"
+                                                        src="../images/shmuley-homepage.png"
+                                                        className="hero-image"
                                                     />
                                                 </div>
                                             </div>
@@ -37,14 +39,16 @@ const HomeHero = () => (
                                             <div className="position-relative m-2">
                                                 <div className="position-relative overflow-hidden">
                                                     <StaticImage 
-                                                        src="../images/mehmet-oz.png"
+                                                        src="../images/oz-homepage.png"
+                                                        className="hero-image"
                                                     />
                                                 </div>
                                             </div>
                                             <div className="position-relative m-2 mt-lg-4">
                                                 <div className="position-relative overflow-hidden">
                                                     <StaticImage 
-                                                        src="../images/robert-smith.png"
+                                                        src="../images/smith-homepage.png"
+                                                        className="hero-image"
                                                     />
                                                 </div>
                                             </div>

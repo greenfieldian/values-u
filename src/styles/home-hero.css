@@ -19,7 +19,11 @@
     background-color: blue !important;
 }
 .flex-column-last {
-    padding-top: 3rem;
+    max-width: 50%;
+}
+.hero-image {
+    border-radius: 10px;
+    max-height: 200px;
 }
 @media only screen and (min-width: 768px) {
     .home-hero-header {
@@ -35,6 +39,11 @@
     }
     .home-hero-text {
         padding-top: 5rem;
+    }
+    .hero-image {
+        border-radius: 10px;
+        max-height: 300px;
+        max-width: 250px;
     }
 }
 @media only screen and (min-width: 1200px) {
