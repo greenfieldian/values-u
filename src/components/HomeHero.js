@@ -58,7 +58,7 @@ const HomeHero = () => (
                             </div>
                         </div>
                         <div className="col-lg-5 home-hero-text">
-                            <div>
+                            <div className="home-hero-headline">
                                 <h1 className="home-hero-header">Explore <br /> 
                                 <b>The Values</b> <br/> that matter most</h1>
                             </div>

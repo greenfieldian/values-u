@@ -41,7 +41,7 @@ const AboutPage = () => (
           </div>
           <div className="about-main">
             <figure className="intro-video-fig">
-              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P9ccfu4qmd8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/bO_VdsV2Nkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
             <blockquote className="mission-blockquote" id="our-mission">
               <h2 className="mission-blockquote-heading">OUR MISSION</h2>
@@ -59,6 +59,24 @@ const AboutPage = () => (
             <hr></hr>
             <div className="team">
             <div id="our-team"><h2>Our Team</h2></div>
+            <div className="team-item">
+            <figure className="order-2 team-item-img team-item-child">
+                <StaticImage
+                  src="../images/robert-smith-about.png"
+                  quality={95}
+                  formats={["AUTO", "WEBP", "AVIF"]}
+                  alt="A Gatsby astronaut"
+                  style={{ marginBottom: `1.45rem` }}
+                />
+              </figure>
+              <div className="text-center order-1 team-item-text team-item-child">
+                <div className="team-text">
+                  <h5>Robert F. Smith</h5>
+                  <h6>Executive Producer</h6>
+                </div>
+              </div>
+            </div>
+            <hr></hr>
             <div className="team-item">
               <figure className="team-item-img team-item-child">
                 <StaticImage
@@ -78,25 +96,7 @@ const AboutPage = () => (
               </div>
             </div>
             <hr></hr>
-            <div className="team-item">
-            <figure className="order-2 team-item-img team-item-child">
-                <StaticImage
-                  src="../images/robert-smith-about.png"
-                  quality={95}
-                  formats={["AUTO", "WEBP", "AVIF"]}
-                  alt="A Gatsby astronaut"
-                  style={{ marginBottom: `1.45rem` }}
-                />
-              </figure>
-              <div className="text-center order-1 team-item-text team-item-child">
-                <div className="team-text">
-                  <h5>Robert F. Smith</h5>
-                  <h6>Executive Producer</h6>
-                </div>
-              </div>
             </div>
-            </div>
-            <hr></hr>
             <div className="join-team-text mb-5" id="join-team">
               <h2>Join Our Team</h2>
               <p>Want to make your impact on a values based approach to social-cohesion, peace-building and a sustainable global community? We are always looking for passionate and hard-working individuals to join our team-send your CV to <a href='mailto:info@shmuley.com'>info@shmuley.com</a> today!</p>
