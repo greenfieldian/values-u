@@ -41,7 +41,7 @@ const AboutPage = () => (
           </div>
           <div className="about-main">
             <figure className="intro-video-fig">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/bO_VdsV2Nkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/r2HTGtrggzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </figure>
             <blockquote className="mission-blockquote" id="our-mission">
               <h2 className="mission-blockquote-heading">OUR MISSION</h2>
