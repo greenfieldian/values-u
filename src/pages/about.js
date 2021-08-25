@@ -12,7 +12,7 @@ import Button from "../components/reusable/button"
 
 const AboutPage = () => (
     <Layout>
-      <Seo title="Page two" />
+      <Seo title="About Us" />
       <Hero title="About Us"/>
       <Container>
         <div className="about-page-container">
