@@ -18,7 +18,7 @@ class ContributorIndex extends React.Component {
       <Layout location={this.props.location}>
         <Hero title="Our Influencers" description='ValuesU is responsible solely for the content of its influencers in ValuesU videos and other ValuesU-produced media. ValuesU is not responsible for anything said or written by influencers in any other forum.'/>
         <div style={{ background: '#fff' }} className="container">
-          <Helmet title={siteTitle} />
+        <Helmet title="Contributors | ValuesU" />
           <div className="wrapper">
             {/*<h2 className="section-headline">Recent articles</h2>*/}
             <ul className="video-list d-flex justify-content-between flex-wrap">

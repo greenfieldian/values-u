@@ -4,11 +4,13 @@ import Hero from '../components/hero'
 import Donate from '../components/donate'
 import { Container, Row, Form } from 'react-bootstrap'
 import Button from '../components/reusable/button'
+import { Helmet } from 'react-helmet'
 
 import '../styles/contact.css'
 
 const ContactPage = () => (
     <Layout>
+        <Helmet title="Contact Us | ValuesU" />
         <Hero title="Contact Us" description="Have any questions, feeling inspired and want to get involved, or simply want to provide some feedback? Contact us through our online submission form - we would love to hear from you."/>
         <Container className="contact-form-container">
             <div>

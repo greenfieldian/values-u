@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `ValuesU`,
+    title: `Values U`,
     description: `ValuesU explores the values that shape and create our realities, highlighting the global leaders, change makers and influencers whose adherence to their values promote a more unified global community.`,
     author: `@gatsbyjs`,
   },

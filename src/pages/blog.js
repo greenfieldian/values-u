@@ -17,7 +17,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location}>
         <ArchiveHero />
         <div style={{ background: '#fff' }} className="container">
-          <Helmet title={siteTitle} />
+        <Helmet title="Blog | ValuesU" />
           <div className="">
             {/*<h2 className="section-headline">Recent articles</h2>*/}
             <ul className="article-list">

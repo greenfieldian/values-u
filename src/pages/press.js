@@ -17,7 +17,7 @@ export default class Press extends Component {
             <Layout>
                 <ArchiveHero />
                 <div style={{ background: '#fff' }} className="container">
-                    <Helmet title={siteTitle} />
+                  <Helmet title="Press Releases | ValuesU" />
                     <div className="wrapper">
                         {/*<h2 className="section-headline">Recent articles</h2>*/}
                         <ul className="article-list">

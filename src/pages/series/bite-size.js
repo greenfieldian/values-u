@@ -19,7 +19,7 @@ class BiteSize extends React.Component {
       <Layout location={this.props.location}>
         <ArchiveHero Imgsrc={BiteSizeImg} description="Our bite size segments provide a quick condensed  insight into the values that have shaped the lives and approaches of our various guest speakers."/>
         <div style={{ background: '#fff' }} className="container">
-          <Helmet title={siteTitle} />
+          <Helmet title="Bite Size | ValuesU" />
           <div className="videos-wrapper">
             {/*<h2 className="section-headline">Recent articles</h2>*/}
             <ul className="video-list d-flex justify-content-between flex-wrap">
