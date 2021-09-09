@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import VideoPollComponent from '../videopoll'
 
-export default function VideoPoll() {
+export default function VideoPoll1() {
 
     const data = useStaticQuery(graphql`
         query VideoPollQuery {

@@ -9,7 +9,8 @@ import HomeHero from '../components/HomeHero';
 import BiteSizeWidget from "../components/widgets/bite-size-widget";
 import EldersWidget from "../components/widgets/elders-series-widget";
 import ContributorWidget from "../components/widgets/contributor-widget";
-import VideoPoll from "../components/widgets/VideoPoll";
+import VideoPoll1 from "../components/widgets/VideoPoll1";
+import VideoPoll2 from "../components/widgets/VideoPoll2";
 
 
 
@@ -22,8 +23,9 @@ const IndexPage = () => (
         <BiteSizeWidget />
         <EldersWidget />
         </div>
-        <div>
-          <VideoPoll />
+        <div className="video-poll-container mb-5">
+          <VideoPoll1 />
+          <VideoPoll2 />
         </div>
         <div className="container">
         <div className="influencer-widget-container">
