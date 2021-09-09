@@ -584,12 +584,61 @@ pre tt:after {
   color: #094067;
 }
 
+.video-poll-container {
+  background-color: #F6FBFE;
+  color: #094067;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.video-poll-video iframe{
+  width: 100%;
+  height: 200px;
+}
+
+.poll-container {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #094067 !important;
+}
+.styles_question__3qxRo {
+  color: #094067 !important;
+}
+
+.styles_option__1sn1C {
+  border: 2px solid #094067 !important;
+  color: #094067 !important;
+}
+
 @media only screen and (min-width: 768px) {
   .influencer-widget-header h1 {
     font-size: 2.5rem;
   }
+  .video-post-container {
+    flex-basis: 45%;
+  }
+  .video-poll-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .video-poll-container h2 {
+    font-size: 2.5rem;
+  }
 }
 
+@media only screen and (min-width: 1024px) {
+  .video-poll-video iframe {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .video-poll-video iframe {
+    height: 400px;
+  }
+}
 
 
 

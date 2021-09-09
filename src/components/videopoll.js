@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Poll from 'react-polls';
  
 // Declaring poll question and answers
-const pollQuestion = 'Is react-polls useful?'
+const pollQuestion = 'Which video do you prefer?'
 const pollAnswers = [
-  { option: 'Yes', votes: 8 },
-  { option: 'No', votes: 2 }
+  { option: 'Version 1', votes: 0 },
+  { option: 'Version 2', votes: 0 }
 ]
  
-class VideoPoll extends Component {
+class VideoPollComponent extends Component {
   // Setting answers to state to reload the component with each vote
   state = {
     pollAnswers: [...pollAnswers]
@@ -30,12 +30,11 @@ class VideoPoll extends Component {
   render () {
     const { pollAnswers } = this.state
     return (
-      <div>.
-        <h1>You be the judge!</h1>
+      <div className="poll-container">.
         <Poll question={pollQuestion} answers={pollAnswers} onVote={this.handleVote} />
       </div>
     );
   }
 };
 
-export default VideoPoll
+export default VideoPollComponent
