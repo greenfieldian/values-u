@@ -25,6 +25,7 @@ const IndexPage = () => (
         </div>
         <div className="video-poll-container mb-5">
           <VideoPoll1 />
+          <hr />
           <VideoPoll2 />
         </div>
         <div className="container">
