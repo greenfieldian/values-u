@@ -2,7 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Donate from '../components/donate'
-import { Container, Row, Form } from 'react-bootstrap'
+import { Container, Form } from 'react-bootstrap'
 import Button from '../components/reusable/button'
 import { Helmet } from 'react-helmet'
 
