@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Donate from '../components/donate'
-import { Container, Row, Form, Button } from 'react-bootstrap'
+import { Container, Form, Button } from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
 
 import '../styles/contact.css'
