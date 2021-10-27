@@ -19,7 +19,7 @@ const ContactPage = () => {
     const [emailSent, setEmailSent] = useState(false);
 
     const submit = () => {
-        if (firstName && lastName && phone && email && subject && message) {
+        if (firstName && lastName && message) {
            
             const serviceId = 'service_77o5grq';
             const templateId = 'template_shol8am';
@@ -36,9 +36,6 @@ const ContactPage = () => {
     
             setFirstName('');
             setLastName('');
-            setPhone('');
-            setEmail('');
-            setSubject('');
             setMessage('');
             setEmailSent(true);
         } else {

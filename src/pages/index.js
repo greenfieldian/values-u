@@ -1,5 +1,4 @@
 import * as React from "react"
-import get from 'lodash/get'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/layout"
 import Seo from "../components/seo"
