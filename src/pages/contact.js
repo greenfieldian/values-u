@@ -2,8 +2,7 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import Donate from '../components/donate'
-import { Container, Form } from 'react-bootstrap'
-import Button from '../components/reusable/button'
+import { Container, Form, Button } from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
 
 import '../styles/contact.css'
@@ -40,7 +39,9 @@ const ContactPage = () => (
                         <Form.Label for="message">Message</Form.Label>
                         <Form.Control type="textarea" as="textarea" rows={5} name="message"/>
                     </Form.Group>
-                    <Button  type="submit" label="Submit" />
+                    <Button  type="submit" label="Submit">
+                        Submit
+                    </Button>
                 </Form>
             </div>
         </Container>
