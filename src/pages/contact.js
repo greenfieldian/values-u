@@ -13,7 +13,7 @@ const ContactPage = () => (
         <Hero title="Contact Us" description="Have any questions, feeling inspired and want to get involved, or simply want to provide some feedback? Contact us through our online submission form - we would love to hear from you."/>
         <Container className="contact-form-container">
             <div>
-                <Form name="contact" method="POST" data-netlify="true">
+                <Form name="contact" method="post" data-netlify="true">
                         <Form.Control type="hidden" name="form-name" value="contact"/>
                     <Form.Group controlId="formFile" className="mb-3 form-item-flex">
                         <Form.Label for="firstName">First Name</Form.Label>
