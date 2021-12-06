@@ -611,6 +611,9 @@ pre tt:after {
   border: 2px solid #094067 !important;
   color: #094067 !important;
 }
+.styles_votes__3IO-o {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
   .influencer-widget-header h1 {
